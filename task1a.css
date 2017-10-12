@@ -1,0 +1,116 @@
+
+body{
+	margin:0px;
+	/*padding:0px;*/
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: lightgrey;
+}
+nav{
+	margin: 0px;
+	padding: 0px;
+	/*height: 100%;*/
+	overflow: hidden;
+	background-color: grey;
+}
+ul{
+	list-style-type:none;
+	float: right;
+	line-height: 11px;
+
+}
+ul li {
+	display:inline-block;
+	text-decoration: none;
+	margin-right: 30px; 
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+
+}
+li:hover, a:hover
+{
+	background-color: black;
+}
+main{
+	height: 100%;
+}
+
+aside{
+	margin: 0px;
+	padding: 0px;
+	/*position: relative;*/
+	width: 30%;
+	height: 70vh;
+	float: right;
+	/*margin-top: 25px;*/
+	background-color: white;
+	display: block;
+}
+aside p{
+	margin-left: 10px;
+}
+article{
+	margin: 0px;
+	padding: 0px;
+
+	width: 65%;
+	height:70vh;
+	position: relative;
+	/*margin-top: 25px;*/
+	margin-left: 5px;
+	background-color: white;
+}
+footer{
+	text-align: center;
+	background-color: grey;
+	margin-top: 35px;
+	padding: 20px;
+	position: relative;
+	bottom: 0px;
+}
+/*samrtphones */
+@media screen and (min-width : 300px) and (max-width: 800px) {
+ul{
+	float: none;
+}
+ul li {
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+	aside {
+		display: none;
+	}
+	article{
+			margin: 0px;
+	padding: 0px;
+	width: 98%;
+	margin-top: 25px;
+	margin-left: 5px;
+	background-color: white;
+
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 1024px){
+	aside{
+
+	margin: 0px;
+	padding: 0px;
+	height: 10%;
+	float: right;
+	margin-top: 25px;
+	background-color: white;
+	display: block;
+		width: 100%;
+		float: none;
+	}
+	article{
+		width: 100%;
+	}
+
+}
